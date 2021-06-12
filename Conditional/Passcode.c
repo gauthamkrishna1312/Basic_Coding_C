@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 int main(void){
     int passcode=12345678,code;
@@ -7,11 +7,10 @@ int main(void){
     scanf("%d",&code);
     if (code == passcode)
     {
-        printf("Loged in\n");
-    }
-    else
+       printf("You are in\n");
+    }else
     {
-        printf("Invalid input\n");
-    }
+        printf("Invalid passcode\n");
+    }    
     return EXIT_SUCCESS;
 }
